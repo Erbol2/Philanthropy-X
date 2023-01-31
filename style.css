@@ -36,3 +36,9 @@ body {
   font-size: 60px;
   margin: 0 0 20px;
 }
+.transparent-text {
+  font-family: " DM sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #6E6E6E;
+}
