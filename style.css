@@ -1,5 +1,5 @@
 .container {
-  max-width: 1220px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 body {
@@ -8,4 +8,8 @@ body {
 .container .top-navbar {
   display: flex;
   padding: 30px 0;
+}
+.container .top-navbar .links {
+  display: flex;
+  list-style: none;
 }
