@@ -22,10 +22,11 @@ body {
   color: black;
   margin: 0 10px;
 }
-.orange-links {
+.top-navbar .orange-links {
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
   padding: 16px 24px 20px;
   background-color: #ff9c08;
   border-radius: 10px;
@@ -41,4 +42,22 @@ body {
   font-size: 24px;
   font-weight: 400;
   color: #6E6E6E;
+} 
+.orange-links {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 27px 38px 26px;
+  background-color: #ff9c08;
+  border-radius: 10px;
+}
+.white-links {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #F0ECE8;
+  padding: 27px 32px 26px 32px;
 }
