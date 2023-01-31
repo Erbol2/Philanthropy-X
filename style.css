@@ -35,13 +35,13 @@ body {
 .title {
   font-family: "Roboto", sans-serif;
   font-size: 60px;
-  margin: 0 0 20px;
 }
 .transparent-text {
   font-family: " DM sans", sans-serif;
   font-size: 24px;
   font-weight: 400;
   color: #6E6E6E;
+  margin-bottom: 60px;
 } 
 .orange-links {
   text-decoration: none;
@@ -60,4 +60,13 @@ body {
   border-radius: 10px;
   border: 1px solid #F0ECE8;
   padding: 27px 32px 26px 32px;
+}
+header {
+  display: flex;
+}
+.container header .image img {
+  margin-right: -100px;
+}
+.container header .content {
+  margin-top: 200px;
 }
