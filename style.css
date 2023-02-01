@@ -83,7 +83,7 @@ header {
   flex: 16.6% 0 0;
 }
 .col-3 {
-  flex-basis: 25% ;
+  flex-basis: 23% ;
   flex-grow: 0;
   flex-shrink: 0;
 }
