@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-}.container {
+}
+.container {
   max-width: 1180px;
   margin: 0 auto;
 }
@@ -34,7 +35,7 @@ body {
   border-radius: 10px;
   margin: -8px 0 0 20px;
 }
-.title {
+header .title {
   font-family: "Roboto", sans-serif;
   font-size: 60px;
 }
@@ -42,9 +43,9 @@ body {
   font-family: " DM sans", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  color: #6E6E6E;
+  color: #6e6e6e;
   margin-bottom: 60px;
-} 
+}
 .orange-links {
   text-decoration: none;
   color: black;
@@ -60,7 +61,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   border-radius: 10px;
-  border: 1px solid #F0ECE8;
+  border: 1px solid #f0ece8;
   padding: 27px 32px 26px 32px;
 }
 header {
@@ -83,20 +84,21 @@ header {
   flex: 16.6% 0 0;
 }
 .col-3 {
-  flex-basis: 23% ;
+  flex-basis: 25%;
   flex-grow: 0;
   flex-shrink: 0;
 }
-.col-4 { /* 100% / 12 * 4 */
+.col-4 {
+  /* 100% / 12 * 4 */
   flex-basis: 33.3%;
   flex-grow: 0;
   flex-shrink: 0;
 }
 .col-5 {
-flex: 41.6% 0 0;
+  flex: 41.6% 0 0;
 }
 .col-6 {
-  flex: 50% 0 0 ;
+  flex: 50% 0 0;
 }
 .col-7 {
   flex: 58.3% 0 0;
@@ -111,8 +113,23 @@ flex: 41.6% 0 0;
   flex: 83% 0 0;
 }
 .col-11 {
- flex: 91.6% 0 0;
+  flex: 91.6% 0 0;
 }
 .col-12 {
   flex: 100% 0 0;
+}
+.row .col-3 div {
+  display: flex;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  margin: 50px 0 0 0;
+}
+
+.orange-text {
+  margin: 50px 0 0 0;
+  color: #ff9c08;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
 }
