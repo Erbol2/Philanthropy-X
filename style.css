@@ -126,7 +126,6 @@ header {
   font-size: 60px;
   margin: 50px 0 0 0;
 }
-
 .orange-text {
   margin: 50px 0 0 0;
   color: #ff9c08;
@@ -135,4 +134,17 @@ header {
 }
 .row .col-3:nth-child(1) {
   margin-left: 20px;
+}
+.small-orange-text {
+  color: #ff9c08;
+}
+.orange-small-text {
+  color: #ff9c08;
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+.transparent-small-text {
+  color: #6e6e6e;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
 }
