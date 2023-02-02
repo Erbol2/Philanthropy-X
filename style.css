@@ -171,6 +171,7 @@ main .row .col-6:nth-child(2) {
 .numbers-title {
   font-family: "Roboto", sans-serif;
   font-size: 38px;
+  margin-bottom: -10px;
 }
 .card {
   display: flex;
@@ -183,4 +184,12 @@ main .row .col-6:nth-child(2) {
 .card-images {
   flex: 50% 1 1;
   padding-left: 10px;
+}
+.inline {
+  display: flex;
+}
+img.icon {
+height: 76px;
+width: 76px;
+margin: 30px 15px 0 0;
 }
