@@ -190,18 +190,19 @@ main .row .col-6:nth-child(2) {
   display: flex;
 }
 img.icon {
-height: 76px;
-width: 76px;
-margin: 30px 15px 0 0;
+  height: 76px;
+  width: 76px;
+  margin: 30px 15px 0 0;
 }
 .card .link {
   margin: 95px 0 0 0;
 }
 .bisque {
-  background-color: #FFD4A4;
+  background-color: #ffd4a4;
   text-align: center;
   padding: 198px 344px 508px;
   margin-top: 200px;
+  height: 864px;
 }
 .black-text {
   font-family: "DM Sans", sans-serif;
@@ -218,4 +219,12 @@ margin: 30px 15px 0 0;
 }
 .bisque .small-title {
   margin-bottom: 80px;
+}
+.bisque img {
+  width: 1180px;
+  margin: 90px -241px;
+}
+img.video-icon {
+  width: 200px;
+  margin: -30px 570px;
 }
