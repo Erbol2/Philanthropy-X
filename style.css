@@ -184,7 +184,7 @@ main .row .col-6:nth-child(2) {
 .card-content {
   flex: 50% 1 1;
 }
-.card-images {
+main .card-images {
   flex: 50% 1 1;
   padding-left: 10px;
 }
@@ -265,14 +265,14 @@ img.section-icon {
   display: flex;
   margin-top: 200px;
   padding: 160px 60px 158px;
-  background-color: #FF9C08;
+  background-color: #ff9c08;
   border-radius: 40px;
 }
 .orange-card .small-title {
   margin-top: -20px;
 }
 .orange-card .black-links {
-  margin: 0 20px 0 100px
+  margin: 0 20px 0 100px;
 }
 .top-navbar .orange-links {
   width: 142px;
@@ -283,4 +283,16 @@ img.section-icon {
 }
 #secvector {
   margin: -340px 0 0 800px;
+}
+.card-images {
+  flex: 50% 1 1;
+  padding-right: 118px;
+}
+#white-block {
+  margin: 400px 40px 0 -390px;
+  height: 298px;
+}
+.text {
+  width: 310px;
+  margin: 430px 70px 0 -360px;
 }
