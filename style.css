@@ -63,6 +63,7 @@ header .title {
   border-radius: 10px;
   border: 1px solid #f0ece8;
   padding: 27px 32px 26px 32px;
+  background-color: white;
 }
 header {
   display: flex;
@@ -195,4 +196,26 @@ margin: 30px 15px 0 0;
 }
 .card .link {
   margin: 95px 0 0 0;
+}
+.bisque {
+  background-color: #FFD4A4;
+  text-align: center;
+  padding: 198px 344px 508px;
+  margin-top: 200px;
+}
+.black-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+}
+.black-links {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 27px 38px 26px;
+}
+.bisque .small-title {
+  margin-bottom: 80px;
 }
