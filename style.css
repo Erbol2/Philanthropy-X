@@ -278,3 +278,9 @@ img.section-icon {
   width: 142px;
   height: 54px;
 }
+#vector {
+  margin-bottom: -500px;
+}
+#secvector {
+  margin: -340px 0 0 800px;
+}
