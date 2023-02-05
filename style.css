@@ -186,7 +186,7 @@ main .row .col-6:nth-child(2) {
 }
 main .card-images {
   flex: 50% 1 1;
-  padding-left: 10px;
+  padding: 0 0 0 10px;
 }
 .inline {
   display: flex;
