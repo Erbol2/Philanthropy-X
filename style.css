@@ -54,6 +54,8 @@ header .title {
   padding: 27px 38px 26px;
   background-color: #ff9c08;
   border-radius: 10px;
+  width: 180px;
+  height: 75px;
 }
 .white-links {
   text-decoration: none;
@@ -64,6 +66,8 @@ header .title {
   border: 1px solid #f0ece8;
   padding: 27px 32px 26px 32px;
   background-color: white;
+  height: 75px;
+  width: 270px;
 }
 header {
   display: flex;
@@ -214,6 +218,8 @@ img.icon {
   background-color: black;
   border-radius: 10px;
   padding: 27px 38px 26px;
+  width: 220px;
+  height: 75px;
 }
 .bisque .small-title {
   margin-bottom: 80px;
@@ -240,8 +246,6 @@ img.video-icon {
   display: flex;
 }
 .section .topside .orange-links {
-  width: 180px;
-  height: 75px;
   margin: 20px 0 0 100px;
 }
 img.section-icon {
@@ -256,4 +260,21 @@ img.section-icon {
 }
 .row .col-4 .transparent-small-text {
   margin: 0 30px;
+}
+.orange-card {
+  display: flex;
+  margin-top: 200px;
+  padding: 160px 60px 158px;
+  background-color: #FF9C08;
+  border-radius: 40px;
+}
+.orange-card .small-title {
+  margin-top: -20px;
+}
+.orange-card .black-links {
+  margin: 0 20px 0 100px
+}
+.top-navbar .orange-links {
+  width: 142px;
+  height: 54px;
 }
