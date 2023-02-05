@@ -238,3 +238,11 @@ img.video-icon {
 .underline {
   width: 1180px;
 }
+.section .topside {
+  display: flex;
+}
+.section .topside .orange-links {
+  width: 180px;
+  height: 75px;
+  margin: 20px 0 0 100px;
+}
