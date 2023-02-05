@@ -91,9 +91,7 @@ header {
 }
 .col-4 {
   /* 100% / 12 * 4 */
-  flex-basis: 33.3%;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex: 33.3% 1 1;
 }
 .col-5 {
   flex: 41.6% 1 1;
@@ -245,4 +243,17 @@ img.video-icon {
   width: 180px;
   height: 75px;
   margin: 20px 0 0 100px;
+}
+img.section-icon {
+  width: 172px;
+}
+.section .row .col-4 {
+  text-align: center;
+  margin: 70px 0;
+}
+.section .row .col-4 .subhead {
+  margin-top: 10px;
+}
+.row .col-4 .transparent-small-text {
+  margin: 0 30px;
 }
