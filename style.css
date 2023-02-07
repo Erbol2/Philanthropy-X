@@ -35,6 +35,10 @@ body {
   border-radius: 10px;
   margin: -8px 0 0 20px;
 }
+header {
+  width: 1381px;
+  margin: 0 auto;
+}
 header .title {
   font-family: "Roboto", sans-serif;
   font-size: 60px;
@@ -69,11 +73,14 @@ header .title {
   height: 75px;
   width: 270px;
 }
-header {
+header .right-container {
   display: flex;
+  max-width: 1300px;
+  margin-left: 81px;
 }
 .container header .image img {
   margin-right: -80px;
+  max-width: 100%;
 }
 .container header .content {
   margin-top: 200px;
@@ -230,10 +237,11 @@ img.icon {
 .bisque .small-title {
   margin-bottom: 80px;
 }
-img.video-icon {
-  width: 200px;
-  margin: -310px 570px 0;
+.bisque img {
+  max-width: 100%;
+  padding: 0 10px;
 }
+
 .subhead {
   font-size: 24px;
   margin-top: 280px;
@@ -312,5 +320,5 @@ img.section-icon {
   width: 535px;
   height: 300px;
   border-radius: 12px;
-  margin: -100px  0 0 0;
+  margin: -100px 0 0 0;
 }
