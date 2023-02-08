@@ -35,9 +35,16 @@ body {
   border-radius: 10px;
   margin: -8px 0 0 20px;
 }
-header {
-  width: 1381px;
-  margin: 0 auto;
+header .container {
+  display: flex;
+  margin-right: 0;
+  max-width: 1300px;
+}
+header .container .content {
+  margin-top: 200px;
+}
+header .conteiner img {
+  width: 100%;
 }
 header .title {
   font-family: "Roboto", sans-serif;
@@ -72,17 +79,6 @@ header .title {
   background-color: white;
   height: 75px;
   width: 270px;
-}
-header .right-container {
-  display: flex;
-  max-width: 1300px;
-  margin-left: 81px;
-}
-header .right-container img {
-  max-width: 100%;
-}
-.container header .content {
-  margin-top: 200px;
 }
 .row {
   display: flex;
