@@ -339,7 +339,7 @@ img.section-icon {
   text-decoration: none;
   color: black;
   font-weight: 700;
-  margin:  30px 0 0;
+  margin: 30px 0 0;
 }
 .block {
   margin: -280px 0 0 50px;
@@ -347,7 +347,7 @@ img.section-icon {
 footer {
   margin: 200px 0 0 0;
   padding: 160px 0 10px;
-  background-color: #FEF9F2;
+  background-color: #fef9f2;
 }
 .footer-container {
   display: flex;
@@ -362,7 +362,7 @@ footer {
 }
 .footer-card .black-links {
   text-align: center;
-  margin:  10px auto;
+  margin: 10px auto;
 }
 .footer-card .white-links {
   text-align: center;
@@ -374,4 +374,28 @@ footer {
 }
 .rightvec {
   margin: -120px -100px -150px 0;
+}
+.footer-navbar {
+  width: 17%;
+}
+.footer-navbar a {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+  color: black;
+}
+.footer-navbar li {
+  margin: 25px 30px 0 0;
+  list-style-type: none;
+}
+.left-sidebar {
+  width: 30%;
+}
+.footer-navbar li:nth-child(1){
+  margin: 0;
+}
+.footer-navbar .black-text {
+  font-weight: 700;
 }
