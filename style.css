@@ -354,3 +354,24 @@ footer {
   max-width: 1220px;
   margin: 0 auto;
 }
+.footer-card {
+  margin: 0;
+  margin-left: auto;
+  flex-direction: column;
+  padding: 60px 50px 0;
+}
+.footer-card .black-links {
+  text-align: center;
+  margin:  10px auto;
+}
+.footer-card .white-links {
+  text-align: center;
+  margin: 0 auto;
+  width: 220px;
+}
+.leftvec {
+  margin: -190px 0 0 -100px;
+}
+.rightvec {
+  margin: -120px -100px -150px 0;
+}
