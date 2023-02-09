@@ -46,7 +46,7 @@ header .container .content {
 header .conteiner img {
   width: 100%;
 }
-header .title {
+.title {
   font-family: "Roboto", sans-serif;
   font-size: 60px;
 }
@@ -154,8 +154,11 @@ header .title {
 .row img {
   width: 570px;
 }
-.link {
-  margin: 180px 0 50px 189px;
+main .row .col-6 .linked {
+  margin-left: auto;
+}
+.linked {
+  margin: 150px 0 50px 0px;
   width: 381px;
 }
 .small-title {
@@ -284,9 +287,11 @@ img.section-icon {
 }
 #vector {
   margin-bottom: -500px;
+  max-width: 100%;
 }
 #secvector {
   margin: -340px 0 0 800px;
+  max-width: 100%;
 }
 .card-images {
   flex: 50% 1 1;
@@ -389,7 +394,7 @@ footer {
 .left-sidebar {
   width: 30%;
 }
-.footer-navbar li:nth-child(1){
+.footer-navbar li:nth-child(1) {
   margin: 0;
 }
 .footer-navbar .black-text {
@@ -399,11 +404,53 @@ footer .underline {
   margin: 100px 0 25px;
 }
 footer .inline .black-text {
-font-size: 18px;
+  font-size: 18px;
 }
 .black-box {
   margin: 15px 5px;
 }
 .inline img:nth-child(5) {
   margin-left: auto;
+}
+.sector .linked {
+  margin: 150px auto;
+}
+@media screen and (max-width: 1220px) {
+  .container {
+    max-width: 1080px;
+  }
+  header .container {
+    max-width: 1110px;
+  }
+  .footer-container {
+    max-width: 1080px;
+  }
+  .title {
+    font-size: 52px;
+  }
+  .small-title {
+    font-size: 36px;
+  }
+  .transparent-text {
+    font-size: 21px;
+  }
+  .transparent-small-text {
+    font-size: 16px;
+  }
+  .orange-text {
+    font-size: 52px;
+  }
+  .numbers-title {
+    font-size: 33px;
+    margin-top: 35px;
+  }
+  .subhead {
+    font-size: 20px;
+  }
+  .black-text {
+    font-size: 18px;
+  }
+  .orange-small-text {
+    font-size: 18px;
+  }
 }
