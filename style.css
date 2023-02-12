@@ -35,12 +35,11 @@ body {
   border-radius: 10px;
   margin: -8px 0 0 20px;
 }
-header .container {
+header {
   display: flex;
-  margin-right: 0;
-  max-width: 1300px;
+  margin-right: -80px;
 }
-header .container .content {
+header .content {
   margin-top: 200px;
 }
 header .conteiner img {
@@ -419,9 +418,6 @@ footer .inline .black-text {
   .container {
     max-width: 1080px;
   }
-  header .container {
-    max-width: 1110px;
-  }
   .footer-container {
     max-width: 1080px;
   }
@@ -452,5 +448,13 @@ footer .inline .black-text {
   }
   .orange-small-text {
     font-size: 18px;
+  }
+  .link {
+    width: 190px
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    max-width: 350px;
   }
 }
