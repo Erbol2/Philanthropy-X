@@ -42,8 +42,8 @@ header {
 header .content {
   margin-top: 200px;
 }
-header .conteiner img {
-  width: 100%;
+header .headerimg {
+  width: 50%;
 }
 .title {
   font-family: "Roboto", sans-serif;
@@ -417,11 +417,7 @@ footer .inline .black-text {
 .sector .linked {
   margin: 150px auto;
 }
-@media screen and (min-width: 761px) {
-  .nav {
-    display: none;
-  }
-}
+
 @media screen and (max-width: 1220px) {
   .container {
     max-width: 1080px;
@@ -459,6 +455,53 @@ footer .inline .black-text {
   }
   .link {
     width: 190px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .container {
+    max-width: 860px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .orange-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  #secvector {
+    display: none;
+  }
+  .orange-card .link {
+    margin: 10px auto;
+    width: 220px;
+  }
+  .link {
+    font-size: 16px;
+  }
+  .footer-container {
+    max-width: 860px ;
+  }
+  .footer-card img {
+  display: none;}
+}
+.black-box {
+  height: 36px;
+}
+.container .inline .black-text {
+  font-size: 16px;
+}
+.block {
+  margin: -210px 0 0 40px;
+}
+.block .inline {
+  height: 60px;
+}
+.title.subhead {
+  margin-top: 20px;
+}
+@media screen and (min-width: 761px) {
+  .nav {
+    display: none;
   }
 }
 @media screen and (max-width: 760px) {
@@ -608,7 +651,7 @@ footer .inline .black-text {
     padding-left: 70px;
   }
   .card img {
-    max-width: 100%;
+    max-width: 70%;
   }
   .section {
     text-align: center;
@@ -616,15 +659,6 @@ footer .inline .black-text {
   .section .topside .orange-links {
     margin: 0 auto;
   }
-  .orange-card {
-    flex-direction: column;
-    text-align: center;
-  }
-  .orange-card .link {
-    margin: 10px auto;
-    width: 220px;
-  }
-
   .topside {
     flex-direction: column;
   }
